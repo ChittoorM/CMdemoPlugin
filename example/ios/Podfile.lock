@@ -1,0 +1,22 @@
+PODS:
+  - flutplug (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - flutplug (from `.symlinks/plugins/flutplug/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  flutplug:
+    :path: ".symlinks/plugins/flutplug/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  flutplug: 0b1c23f15534c424aa769519db2b1cd8fde0602a
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+
+PODFILE CHECKSUM: 2d3f5ad75fafe95b8af992ee6147d3012ce06ba1
+
+COCOAPODS: 1.10.1
