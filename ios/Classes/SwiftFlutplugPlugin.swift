@@ -11,7 +11,7 @@ public class SwiftFlutplugPlugin: NSObject, FlutterPlugin {
     
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
      let arithmeticModule = BasicArithmetic();
-    let x = arithmeticModule.Add(x: 6, y: 10)
-    result("iOS \(x)" + UIDevice.current.systemVersion)
+    let x = arithmeticModule.Add(x: 1, y: 1)
+    result("iOS \(x) " + UIDevice.current.systemVersion)
   }
 }
